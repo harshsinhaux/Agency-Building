@@ -1,0 +1,391 @@
+/* Add this CSS to your existing stylesheet */
+.background-container {
+  background-image: url('Images/Website bg.png'); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating the image */
+  background-attachment: fixed; /* Fix the background image */
+  min-height: 100vh; /* Ensure it takes the full viewport height */
+}
+
+.main-container {
+  border-radius: 25px; /* Round the corners of the container */
+  margin: 20px; /* Create white space around the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Apply a shadow for a 3D effect */
+  overflow: hidden; /* Ensure the rounded corners are applied to child elements */
+  background: rgba(255, 255, 255, 0.377); /* Semi-transparent background to ensure readability */
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 90px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Other CSS rules remain unchanged */
+.navbar {
+  background-color: white; /* Set navbar background to white */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Create a subtle shadow for a 3D effect */
+  border-radius: 25px; /* Optional: Round the corners of the navbar */
+  height: 60px; /* Adjust as needed */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logoimg {
+  margin-top: -11px;
+}
+
+.nav-link {
+  color: black; /* Set the color of the nav links to black for contrast */
+  padding: 15px 0; /* Add vertical padding to maintain the height */
+  margin-top: -7px;
+}
+
+.nav-link.active {
+  background-color: #645fce; /* Same as hover background color */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.navhover1:hover, .navhover1:focus {
+  background-color: #645fce; /* Darken link background on hover/focus for interactive effect */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.navhover2:hover, .navhover2:focus {
+  background-color: #645fce; /* Darken link background on hover/focus for interactive effect */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.navhover3:hover, .navhover3:focus {
+  background-color: #645fce; /* Darken link background on hover/focus for interactive effect */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.navhover4:hover, .navhover4:focus {
+  background-color: #645fce; /* Darken link background on hover/focus for interactive effect */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.navhover5:hover, .navhover5:focus {
+  background-color: #645fce; /* Darken link background on hover/focus for interactive effect */
+  border-radius: 15px; /* Round the corners of the link background */
+  color: #ffffff; /* Maintain color consistency */
+  font-weight: 400;
+  border-color: rgb(255, 255, 255); /* Change border color */
+}
+
+.blueagency {
+  flex: 0 0 auto;
+  margin-left: -25px;
+  margin-top: 40px;
+}
+
+.orangeagency {
+  flex: 0 0 auto;
+  margin-right: -25px;
+  margin-top: 30px;
+}
+
+.custom-button {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.custom-button:hover {
+  background-color: #645fce;
+  font-weight: bold;
+}
+
+.spinner-grow {
+  background-color: rgb(255, 136, 0); /* Change to desired color and transparency */
+}
+
+.custom-primary {
+  background-color: rgb(0, 0, 0); /* Set background color */
+  border-radius: 50px; /* Optional: Round the corners */
+  height: 80px; /* Adjust height as needed */
+  width: 1000px; /* Adjust width as needed */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+  margin-bottom: 250px;
+  margin-left: 60px;
+  
+  /* Add box-shadow for the shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust values for shadow intensity */
+}
+
+.app-image {
+  max-width: 70px; /* Adjust as necessary */
+  height: auto;
+  margin-right: 15px; /* Adjust spacing between image and text */
+}
+
+.app-text {
+  color: white;
+  margin-top: 10px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  margin: 0 15px; /* Adjust spacing between image blocks */
+}
+
+.animation-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animation-content {
+  display: flex;
+  animation: slide-left 10s infinite linear;
+}
+
+@keyframes slide-left {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-50%);
+  }
+}
+
+.project-carousel {
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.latest-container {
+  position: absolute;
+  top: 830px; /* Adjust this value to position the image vertically */
+  left: 12%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.Latest {
+  width: 300px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .carousel-inner {
+  position: relative;
+}
+
+.carousel .carousel-inner .carousel-item {
+  position: relative;
+}
+
+.display-5 {
+  font-size: 70px;
+}
+
+.lead2 {
+  font-size: 20px;
+}
+
+.lead3 {
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.card {
+  background-color: #ffffff5b;
+  margin-top: 60px;
+  border: none;
+}
+
+.custom2-button {
+  width: 200px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.custom2-button:hover {
+  background-color: #645fce;
+  font-weight: bold;
+}
+
+.display-6 {
+  font-size: 70px;
+  margin-top: 20px;
+}
+
+.arrow {
+  margin-top: 80px;
+}
+
+.display-7 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.lead {
+  margin-top: 20px;
+}
+
+.billgates {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.displayservice {
+  font-size: 60px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.serviceimages {
+  margin-top: 70px;
+}
+
+
+
+
+
+
+.intro-call-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa00;
+}
+.card {
+  max-width: 400px;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.btn-schedule {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+}
+.gmail-link {
+  margin-top: 10px;
+  display: block;
+  color: #ff4a4a;
+  text-decoration: none;
+}
+
+.arrow7 {
+  margin-top: -20px;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .custom-primary {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .project-carousel {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .latest-container {
+    top: 600px; /* Adjust this value to position the image vertically */
+    left: 50%;
+  }
+
+  .hero-section {
+    padding: 30px 0;
+  }
+
+  .display-5 {
+    font-size: 40px;
+  }
+
+  .display-6 {
+    font-size: 50px;
+  }
+
+  .display-7 {
+    font-size: 40px;
+  }
+
+  .lead2,
+  .lead3 {
+    font-size: 16px;
+  }
+
+  .custom-button,
+  .custom2-button {
+    width: 100%;
+  }
+
+  .blueagency {
+    width: 100px;
+    margin-left: 0;
+  }
+  
+  .orangeagency {
+    width: 100px;
+    margin-right: 0;
+  }
+}
